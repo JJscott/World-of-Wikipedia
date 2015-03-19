@@ -30,5 +30,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      comments: true
 #
 
