@@ -1,0 +1,34 @@
+# Site settings
+title: World of Wikipedia
+email: joshua.scott.132@gmail.com
+description: >
+  WIP.
+baseurl: /world-of-wikipedia
+url: http://jjscott.github.io/world-of-wikipedia
+github_username: JJScott
+
+# Build settings
+markdown: kramdown
+
+# authors
+authors:
+  ben:
+    name: Ben Allen
+    email: benos.9k@gmail.com
+    github: benos-9k
+  josh:
+    name: Joshua Scott
+    email: joshua.scott.132@gmail.com
+    github: JJScott
+#
+
+# defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+#
+
