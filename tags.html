@@ -12,7 +12,7 @@ permalink: /tags/
 {% assign sortedtags = tags | split:' ' | sort %}
 
 {% for tag in sortedtags %}
-  <h3 id="{{ tag }}"><a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a></h3>
+  <h3 id="{{ tag }}"><a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a></h3>
   <ul>
   {% for post in site.tags[tag] %}
 	<li>{{ post.date | date_to_string }} &raquo; <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>

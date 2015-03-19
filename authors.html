@@ -6,7 +6,7 @@ permalink: /authors/
 
 {% for e in site.authors %}
   {% assign author = e[1] %}
-  <h2 id="{{ e[0] }}"><a href="{{ site.baseurl }}/authors#{{ e[0] }}">{{ author.name }}</a></h3>
+  <h2 id="{{ e[0] }}"><a href="{{ site.baseurl }}/authors/#{{ e[0] }}">{{ author.name }}</a></h3>
   {% if author.email %}
   <p><a class="contact-list" href="mailto:{{ author.email }}">{{ author.email }}</a></p>
   {% endif %}
