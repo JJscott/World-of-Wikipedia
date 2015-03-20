@@ -23,7 +23,7 @@ permalink: /authors/
   
   <p/>
   
-  <ul class="post-list">
+  <ul>
   {% for post in site.posts %}
   {% if post.authors contains e[0] %}
 	<li>{{ post.date | date_to_string }} &raquo; <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
