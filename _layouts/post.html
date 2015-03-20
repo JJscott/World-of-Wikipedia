@@ -23,7 +23,14 @@ layout: default
   </article>
 
   <footer>
-    <p class="post-meta">Posted in {% for tag in page.tags %} <a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</p>
+    <p class="post-meta">
+	{% if page.previous %}
+	<a href="{{ page.previous.url | prepend: site.baseurl }}">&laquo; Previous</a> • 
+	{% endif %}
+	{% if page.next %}
+	<a href="{{ page.next.url | prepend: site.baseurl }}">Next &raquo;</a> • 
+	{% endif %}
+	Posted in {% for tag in page.tags %} <a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</p>
   </footer>
 
 </div>
