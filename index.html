@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:10 %}
       <li>
 	    
 		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -36,6 +36,10 @@ layout: default
     {% endfor %}
   </ul>
 
+  <p>
+  <a href="{{ site.baseurl }}/archive/">Even more...</a>
+  </p>
+  
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
