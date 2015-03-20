@@ -26,6 +26,7 @@ Simple ["tool"][wiki-edit-locator-link] that takes the live stream of Wikipedia 
 
 
 ![][wiki-lincoln-memorial-pic]
+
 Wikipedia has it's own tool for looking at articles with geolocations. If you click on the globe icon next to the set of co-ordinates you'll get a window [as above][wiki-lincoln-memorial-link]. This tool isn't very usefull however as there is no way to specify articles by topic, date, or importance. Wikipedia simply tries to show the article by name and squeezes in as many articles that will fit in your veiwing window.
 
 
@@ -44,9 +45,9 @@ The Earth Wind Map community have created a very cool [wind visualiser][wind-vis
 [Anthropocene][anthropocene-link] hosts a variety of vides relating to the visualisation of important information about our globe, this one in particular is a 3 mininute film titled "Welcome to the Anthropocene". It's a visualization of routes cities, roads, railways, pipelines, cables and shipping lanes over the globe, demonstrating our influnce as humans as inhabit and connect every corner of the world.
 
 
-![][internet-cencus-pic] Would you like to write about the illigal internet cencus ben? {I thought not, but you know more about it}
-[internet cencus][internet-cencus-link]
-The full resolution image of which can be found [here][internet-cencus-big-pic]
+![][internet-census-pic] Would you like to write about the illigal internet census ben? {I thought not, but you know more about it}
+[internet census][internet-census-link]
+The full resolution image of which can be found [here][internet-census-big-pic]
 
 
 
@@ -68,6 +69,6 @@ The full resolution image of which can be found [here][internet-cencus-big-pic]
 [anthropocene-link]: http://www.anthropocene.info/en/home
 [anthropocene-pic]: http://i.imgur.com/m6u7eAP.png
 
-[internet-cencus-link]: http://internetcensus2012.bitbucket.org/paper.html
-[internet-cencus-pic]: http://i.imgur.com/fbQgvK7.gif
-[internet-cencus-big-pic]: http://internetcensus2012.bitbucket.org/images/geovideo.gif
+[internet-census-link]: http://internetcensus2012.bitbucket.org/paper.html
+[internet-census-pic]: http://i.imgur.com/fbQgvK7.gif
+[internet-census-big-pic]: http://internetcensus2012.bitbucket.org/images/geovideo.gif
