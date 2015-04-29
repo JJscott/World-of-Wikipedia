@@ -5,7 +5,7 @@ tags: mddn442 mediawiki xml
 image:
 ---
 
-Before we can do any text analysis on Wikipedia, we need to pull articles out of the exported files, and the deal with the markup that gives them their formatting and structure.
+Before we can do any text analysis on Wikipedia, we need to pull articles out of the exported files, and then deal with the markup that gives them their formatting and structure.
 
 Articles exported from Wikipedia (the 45GiB dump of English Wikipedia, as well as individual article exports like [this](https://en.wikipedia.org/wiki/Special:Export/Roman_Britain)) are XML documents, with page title and some other metadata as XML tags, and then the page body all in one XML tag. The body consists of [MediaWiki markup](https://www.mediawiki.org/wiki/Markup_spec).
 
