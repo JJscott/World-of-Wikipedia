@@ -1,7 +1,7 @@
 ---
 title:  "Introducing: HorribleMarkup™"
 authors: [ben]
-tags: mddn442
+tags: mddn442 horriblemarkup
 image:
 ---
 
